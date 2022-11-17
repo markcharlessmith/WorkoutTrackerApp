@@ -7,7 +7,7 @@ const WorkoutContainer = () => {
     <div>
       <h3>My Workouts</h3>
       <span>
-        <button>Create a new workout</button>
+        <button variant="contained">New workout</button>
         </span>
     </div>
   )

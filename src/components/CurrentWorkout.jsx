@@ -1,12 +1,12 @@
 import React from 'react'
 
-const ExerciseContainer = () => {
+const CurrentWorkout = () => {
   let now = new Date();
   let twoDigitYear = now.getUTCFullYear().toString().substring(2)
   let todaysSixDigitDate = `${now.getMonth() + 1}/${now.getDate()}/${twoDigitYear}`
 
   return (
-    <div>
+    <div className=''>
       <h3>Workout {todaysSixDigitDate}</h3>
       <form>
         <input type='text' placeholder='Add Exercise...'></input>
@@ -16,4 +16,4 @@ const ExerciseContainer = () => {
   )
 }
 
-export default ExerciseContainer
+export default CurrentWorkout

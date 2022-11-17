@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './styles.css'
 import MyWorkoutsContainer from './components/MyWorkoutsContainer'
-import ExerciseContainer from './components/ExerciseContainer'
+import CurrentWorkout from './components/CurrentWorkout'
 import ExerciseSelectorContainer from './components/ExerciseSelectorContainer'
 import Emoji from './assets/man-lifting-weights.png'
 
@@ -32,7 +32,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Workout Tracker!💪</h1>
+      <h1>Workout Tracker!</h1>
       <img src={Emoji} className='emoji' alt='man-lifting-weights' />
       {/* <div className="card"> */}
         {/* <button onClick={() => setCount((count) => count + 1)}>
@@ -43,8 +43,8 @@ function App() {
       <div className='MyWorkoutsContainer'>
       <MyWorkoutsContainer/>
       </div>
-      <div className='ExerciseContainer'>
-      <ExerciseContainer/>
+      <div className='CurrentWorkout'>
+      <CurrentWorkout/>
       </div>
       <div className='ExerciseSelectorContainer'>
       <ExerciseSelectorContainer/>

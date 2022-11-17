@@ -42,7 +42,7 @@
   padding: 25px 50px;
 }
 
-.ExerciseContainer {
+.CurrentWorkout {
   display: flex;
   flex-direction: column;
   border-radius: 10px;

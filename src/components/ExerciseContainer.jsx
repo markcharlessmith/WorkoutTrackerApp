@@ -7,7 +7,7 @@ const ExerciseContainer = () => {
 
   return (
     <div>
-      Today's Workout {todaysSixDigitDate}
+      Workout {todaysSixDigitDate}
       <form>
         <input type='text' placeholder='Add Exercise...'></input>
         <button>click</button>

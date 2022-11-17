@@ -1,6 +1,6 @@
 import React from 'react'
 
-const AddAnExerciseContainer = () => {
+const ExerciseSelectorContainer = () => {
   return (
     <div>
       Add An Exercise...
@@ -8,4 +8,4 @@ const AddAnExerciseContainer = () => {
   )
 }
 
-export default AddAnExerciseContainer
+export default ExerciseSelectorContainer

@@ -1,11 +1,13 @@
 import React from 'react'
 
-const Workout = () => {
+const Workout = (props) => {
+
   return (
-    <div>
-      Workout
+    <div className='Workout'>
+      <h3>Hello</h3>
+      {/* {workoutsFeed} */}
     </div>
   )
 }
 
-export default Workout
+export default Workout;

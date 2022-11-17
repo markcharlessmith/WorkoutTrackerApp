@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './styles.css'
 import MyWorkoutsContainer from './components/MyWorkoutsContainer'
 import ExerciseContainer from './components/ExerciseContainer'
-import AddAnExerciseContainer from './components/AddAnExerciseContainer'
+import ExerciseSelectorContainer from './components/ExerciseSelectorContainer'
 import Emoji from './assets/man-lifting-weights.png'
 
 function App() {
@@ -46,8 +46,8 @@ function App() {
       <div className='ExerciseContainer'>
       <ExerciseContainer/>
       </div>
-      <div className='AddAnExerciseContainer'>
-        <AddAnExerciseContainer/>
+      <div className='ExerciseSelectorContainer'>
+        <ExerciseSelectorContainer/>
       </div>
       </div>
     </div>

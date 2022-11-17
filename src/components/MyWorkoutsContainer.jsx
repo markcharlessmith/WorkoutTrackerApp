@@ -5,7 +5,7 @@ import Workout from './Workout'
 const WorkoutContainer = () => {
   return (
     <div>
-      My Workouts
+      <h3>My Workouts</h3>
       {/* <Button>This is a Button</Button> */}
       {/* <span>
         <button>Create a new workout</button>

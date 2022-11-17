@@ -34,11 +34,11 @@ function App() {
     <div className="App">
       <h1>Workout Tracker!💪</h1>
       <img src={Emoji} className='emoji' alt='man-lifting-weights' />
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
+      {/* <div className="card"> */}
+        {/* <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
-        </button>
-      </div>
+        </button> */}
+      {/* </div> */}
       <div className='containers'>
       <div className='MyWorkoutsContainer'>
       <MyWorkoutsContainer/>
@@ -47,7 +47,7 @@ function App() {
       <ExerciseContainer/>
       </div>
       <div className='ExerciseSelectorContainer'>
-        <ExerciseSelectorContainer/>
+      <ExerciseSelectorContainer/>
       </div>
       </div>
     </div>

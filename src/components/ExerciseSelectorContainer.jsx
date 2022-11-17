@@ -3,7 +3,7 @@ import React from 'react'
 const ExerciseSelectorContainer = () => {
   return (
     <div>
-      Add An Exercise...
+      <h3>Add An Exercise...</h3>
     </div>
   )
 }

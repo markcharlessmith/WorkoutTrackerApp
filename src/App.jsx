@@ -3,6 +3,7 @@ import './styles.css'
 import MyWorkoutsContainer from './components/MyWorkoutsContainer'
 import CurrentWorkout from './components/CurrentWorkout'
 import ExerciseSelectorContainer from './components/ExerciseSelectorContainer'
+import Footer from './components/Footer'
 import Emoji from './assets/man-lifting-weights.png'
 
 function App() {
@@ -32,7 +33,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Workout Tracker!</h1>
+      <h1>Workout Tracker</h1>
       <img src={Emoji} className='emoji' alt='man-lifting-weights' />
       {/* <div className="card"> */}
         {/* <button onClick={() => setCount((count) => count + 1)}>
@@ -49,6 +50,9 @@ function App() {
       <div className='ExerciseSelectorContainer'>
       <ExerciseSelectorContainer/>
       </div>
+      </div>
+      <div>
+      <Footer/>
       </div>
     </div>
   )

@@ -1,0 +1,18 @@
+{ "users": { 
+  "username": 
+  ["Mark", "Tony"],
+  "password": ["lmnop123", "qwerty098"]
+  },
+  "muscleGroups": {
+    "1": "Chest/Tris",
+    "2": "Back/Bis",
+    "3": "Shoulders",
+    "4": "Legs",
+    "5": "Core/Abs",
+    "6": "Cardio"
+  },
+  "exercises": {
+    "1": {"Incline Dumbbell Bench Press": "muscleGroups[1]"},
+    "2": {"Dumbbell Bench Press": "muscleGroups[1]"}
+  }
+}

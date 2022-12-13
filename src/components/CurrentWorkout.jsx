@@ -16,4 +16,4 @@ const CurrentWorkout = () => {
   )
 }
 
-export default CurrentWorkout
+export default CurrentWorkout;

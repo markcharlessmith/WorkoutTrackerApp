@@ -33,6 +33,10 @@
   width: 100px;
 }
 
+.emojibutton {
+  background-color: rgb(42, 0, 101);
+}
+
 .MyWorkoutsContainer {
   border-radius: 10px;
   width: 20%;
@@ -53,6 +57,10 @@
   margin-left: 7px;
   margin-right: 7px;
   width: 45%;
+}
+
+.CurrentWorkout button {
+  background-color: rgb(128, 128, 128);
 }
 
 .ExerciseSelectorContainer {
@@ -105,6 +113,10 @@
 
 .card {
   padding: 2em;
+}
+
+.card button {
+  background-color: rgb(128, 128, 128);
 }
 
 .read-the-docs {

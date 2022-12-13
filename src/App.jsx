@@ -6,6 +6,7 @@ import ExerciseSelectorContainer from './components/ExerciseSelectorContainer';
 import Footer from './components/Footer';
 import Man from './assets/man-lifting-weights.png';
 import Bicep from './assets/flexed-biceps.png';
+// import { useEffect } from 'react';
 const emojis = { Man, Bicep }
 
 function App() {
@@ -16,36 +17,33 @@ function App() {
   // state for workouts
   const [workouts, setWorkouts] = useState([]);
 
-  const [emoji, setEmoji] = useState(emojis.Man);
-
+  const [isHovered, setHovered] = useState(false);
 
   // functions for CRUD functionality
-  const addWorkout = () => {
-    fetch('http://localhost:5173/api/workout', {
-      method: 'Post',
-      headers: {
-        'Content-Type': 'application/json'
-      },
-      body: JSON.stringify({
+  // const addWorkout = () => {
+  //   fetch('http://localhost:5173/api/workout', {
+  //     method: 'Post',
+  //     headers: {
+  //       'Content-Type': 'application/json'
+  //     },
+  //     body: JSON.stringify({
 
-      })
-    })
-  }
-  const getWorkout = () => {}
-  const updateWorkout = () => {}
-  const deleteWorkout = () => {}
+  //     })
+  //   })
+  // }
+  // const getWorkout = () => {}
+  // const updateWorkout = () => {}
+  // const deleteWorkout = () => {}
 
   return (
     <div className="App">
       <h1>Workout Tracker</h1>
-      <button className='emojibutton' onClick={() => {setEmoji(emojis.Bicep); console.log(emoji)}}>
-      <img src={emoji} className='emoji' alt='emoji' />
+      <button className='emojibutton'
+       onMouseEnter={() => setHovered(true)}
+       onMouseLeave={() => setHovered(false)}>
+       {isHovered ? <img src={Bicep}/> : <img src={Man}/>}
       </button>
-      {/* <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-      </div> */}
+     
       <div className='containers'>
         <div className='MyWorkoutsContainer'>
         <MyWorkoutsContainer/>
